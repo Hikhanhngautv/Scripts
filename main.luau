@@ -10,3 +10,5 @@ local Scripts = {
 }
 
 local fetcher, urls = {}, {}
+
+local _ENV = (getgenv or getrenv or getfenv)()
