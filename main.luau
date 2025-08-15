@@ -8,3 +8,5 @@ local Scripts = {
 		UrlPath = "MemeSea.luau"
 	},
 }
+
+local fetcher, urls = {}, {}
