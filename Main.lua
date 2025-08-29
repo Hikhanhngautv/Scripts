@@ -1,1 +1,1 @@
-local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/ltseverydayyou/Rayfield-backup/main/Rayfield'))()
+local Rayfield = loadstring(game:HttpGet('Rayfield'))()
