@@ -1,5 +1,5 @@
 -- Tải Rayfield UI Library
-local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/Hikhanhngautv/Scripts/refs/heads/main/Rayfield"))()
+local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/Hikhanhngautv/Scripts/main/Rayfield"))()
 
 -- Tạo cửa sổ giao diện
 local Window = Rayfield:CreateWindow({
