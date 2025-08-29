@@ -21,3 +21,16 @@ local Window = Rayfield:CreateWindow({
 
 -- Tạo 1 tab
 local Tab = Window:CreateTab("⚡ Main", 4483362458) -- số là ID icon Roblox
+
+-- Tạo 1 button
+local Button = Tab:CreateButton({
+   Name = "Test Menu",
+   Callback = function()
+        Rayfield:Notify({
+            Title = "Thông báo",
+            Content = "Menu của bạn đã bật!",
+            Duration = 3,
+            Image = 4483362458,
+        })
+   end,
+})
