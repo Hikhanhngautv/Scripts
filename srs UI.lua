@@ -29,4 +29,8 @@ local UICorner_5 = Instance.new("UICorner")
 local UIStroke = Instance.new("UIStroke")
 local UIStroke_2 = Instance.new("UIStroke")
 
+ScreenGui.Name = "SRS"
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
 return ScreenGui
