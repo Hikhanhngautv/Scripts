@@ -1,4 +1,4 @@
--- Load thư viện Rayfield (bản của bạn)
+4483362458-- Load thư viện Rayfield (bản của bạn)
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/Hikhanhngautv/Rayfield-backup/main/Rayfield'))()
 
 -- Tạo cửa sổ chính
@@ -18,3 +18,6 @@ local Window = Rayfield:CreateWindow({
     },
     KeySystem = false -- đổi thành true nếu bạn muốn có hệ thống key
 })
+
+-- Tạo 1 tab
+local Tab = Window:CreateTab("⚡ Main", 4483362458) -- số là ID icon Roblox
