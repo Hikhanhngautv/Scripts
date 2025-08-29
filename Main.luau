@@ -34,3 +34,9 @@ local Button = Tab:CreateButton({
         })
    end,
 })
+
+local Button0 = Tab:CreateButton({
+   Name = "Speed",
+   game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = <giá trị>
+   end,
+})
